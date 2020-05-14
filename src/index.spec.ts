@@ -103,7 +103,7 @@ describe("fetch router", () => {
   describe("mounted", () => {
     const app = use("/here", get("/there", successHandler), { end: false });
 
-    it.only("should match", async () => {
+    it("should match", async () => {
       const req = new Request("/here/there", { method: "get" });
       const res = await app(req, finalHandler);
 
