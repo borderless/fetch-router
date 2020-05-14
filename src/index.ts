@@ -1,4 +1,3 @@
-import { Request, Response } from "cross-fetch";
 import { match, Path } from "path-to-regexp";
 
 /**

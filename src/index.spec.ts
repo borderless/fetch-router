@@ -1,5 +1,5 @@
+import "cross-fetch/polyfill";
 import { get, use, method, paramsKey } from "./index";
-import { Request, Response } from "cross-fetch";
 
 describe("fetch router", () => {
   const finalHandler = async () => new Response(null, { status: 404 });

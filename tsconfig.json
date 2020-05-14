@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
     "target": "ES2018",
-    "lib": ["ESNext"],
+    "lib": ["ESNext", "DOM"],
     "outDir": "dist",
     "rootDir": "src",
     "module": "CommonJS",
     "moduleResolution": "Node",
+    "esModuleInterop": true,
     "strict": true,
     "declaration": true,
     "sourceMap": true,
